@@ -102,7 +102,8 @@ section {
 }
 
 body {
-    line-height: 1
+    line-height: 1;
+
 }
 
 ol,
@@ -209,7 +210,7 @@ button {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 100vh; /* Adjust based on your design */
+    height: 110vh; /* Adjust based on your design */
 }
 
 .hero-video {
@@ -268,16 +269,16 @@ button {
 }
 
 .hero__cat {
-    width: 60%;
+    width: 50%;
     flex-shrink: 0;
     position: relative;
-    transform: translateY(100px);
-    margin-top: auto
+    transform: translateY(90px);
+    margin-top: -250px
 }
 
 @media screen and (max-width: 1600px) {
     .hero__cat {
-        width: 55%
+        width: 50%
     }
 }
 
@@ -290,8 +291,8 @@ button {
 @media screen and (max-width: 1023.98px) {
     .hero__cat {
         max-width: 640px;
-        width: 100%;
-        margin-top: 100px
+        width: 90%;
+        margin-top: -60px
     }
 }
 
@@ -560,7 +561,7 @@ button {
 
 .tokenomics {
     padding: 100px 0;
-    background-color: #428a37;
+    background-color: #1e2d36;
     background-size: contain;
 }
 
@@ -951,13 +952,13 @@ button {
 .community__marque_bottom {
     background: #d2d28f;
     color: #80a4a7;
-    transform: rotate(1deg) translateY(20px);
+    transform: rotate(1deg) translateY(30px);
     border-top: 6px solid #000; /* Change the color and width as needed */
     border-bottom: 6px solid #000; /* Change the color and width as needed */
 }
 
 .community__container {
-    padding: 100px 15px 50px 15px;
+    padding: 140px 15px 50px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -973,7 +974,7 @@ button {
 .community__col {
     display: flex;
     flex-direction: column;
-    max-width: 740px;
+    max-width: 540px;
     width: 100%;
     gap: 32px;
     color: #fff
